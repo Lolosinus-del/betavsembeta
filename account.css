@@ -1,0 +1,218 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+header {
+    padding: 20px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+.menu li {
+    margin-right: 30px;
+    color: blanchedalmond;
+}
+.profile {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.profile-link {
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;  
+}
+.profile-link img {
+    width: 30px;
+    margin-left: 10px;
+}
+.profile-link:hover {
+    background-color: wheat;
+}    
+.logo {
+    width: 100px;
+}
+main {
+    width: 100%;
+    padding: 100px 20px;
+}
+footer {
+    padding: 30px;
+    height: 15%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-link {
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer-right {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+.social a {
+    width: 10px;
+    height: 10px;
+    display: flex;
+}
+.footer-left a {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 15px;
+    opacity: 0.6;
+}
+.menu-link:hover {
+    background-color: white;
+    color: black;
+}
+.footer-right a {
+    margin-right: 15px;
+
+}
+.footer-menu {
+    list-style-type: none;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: rgb(0, 9, 17);
+    font-weight: 600;
+}
+.xxx {
+    width: 275px;
+    margin-right: 20px;
+    margin: 20px
+}
+.xxi {
+    background-color: wheat;
+}
+article {
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: end;
+}
+.article-link {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+
+}
+.article-link:hover {
+    color: rgb(7, 16, 145);
+}
+.menu-link img {
+    width: 30px;
+}
+.profile-top {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.profile-img {
+    margin-right: 45px;
+  }
+  .profile-img img {
+    width: 300px;
+    border-radius: 50%; /* делает любой блок круглым */
+  }
+  .profile-name {
+    margin-bottom: 35px;
+  }
+  .profile-text {
+    margin-bottom: 35px;
+  }
+  .profile-activity {
+    max-width: 500px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    list-style-type: none;
+  }
+  .profile-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-number span {
+    margin-bottom: 15px;
+  }
+form {
+    display: flex;
+    flex-direction: column;
+}
+.profile-bottom {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 50px;
+}
+#button {
+    margin-top: 40px;
+    background-color: green;
+}
+input {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  .form-button {
+    margin-top: 35px;
+    width: 300px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: rgb(236, 104, 104);
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    transition: 0.6s;
+  }
+  .form-button:hover {
+    background-color: rgb(48, 223, 115);
+  }
+  
+  #status {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  .article-info {
+    margin-top: 30px;
+  }
+  
